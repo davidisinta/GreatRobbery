@@ -1,7 +1,7 @@
 public class City
 {
 
-    Building[] buildings= new Building[4];
+    private Building[] buildings= new Building[4];
 
     public City()
     {

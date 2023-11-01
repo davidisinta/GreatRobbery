@@ -1,7 +1,7 @@
 public class Detective extends Person
 {
 
-    private static final int SUCCESS_PERCENTAGE=0;
+    private static final int SUCCESS_PERCENTAGE=50;
 
 
     public Detective(String name, String nickName, int yearOfBorn, String expertIn, Item[] items)
@@ -18,7 +18,7 @@ public class Detective extends Person
     }
 
 
-    public int getSuccessPercentage()
+    public static int getSuccessPercentage()
     {
         return SUCCESS_PERCENTAGE;
     }

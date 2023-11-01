@@ -1,17 +1,21 @@
 public class Criminal extends Person
 {
 
-    private static final int SUCCESS_PERCENTAGE = 0;
+    private static final int SUCCESS_PERCENTAGE = 40;
 
     public Criminal(String name, String nickName, int yearOfBorn, String expertIn, Item[] items)
     {
+
+
         super(name, nickName, yearOfBorn, expertIn, items);
     }
 
-    public int getSuccessPercentage()
+    public static int getSuccessPercentage()
     {
         return SUCCESS_PERCENTAGE;
     }
+
+
 
     @Override
     public void printBioData()
