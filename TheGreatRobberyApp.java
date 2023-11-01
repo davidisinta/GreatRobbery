@@ -12,13 +12,22 @@ public class TheGreatRobberyApp
 
         do
         {
+
+            System.out.println("________________________________________________________");
             if (robberyCount==0)
             {
                 System.out.println("The newest gang in town has made a robbing debut!");
+                System.out.println("________________________________________________________");
+                System.out.println("________________________________________________________");
 
             }
+
+            else if(robberyCount>0)
+            {
+                System.out.println("The newest gang in town are back again!");
+            }
             gangdem.letsRob(endzino.getBuildings());
-            popo.catchCriminals(gangdem);
+
 
             System.out.println("________________________________________________________");
 
@@ -27,7 +36,7 @@ public class TheGreatRobberyApp
 
 
 
-        }while(!popo.areCriminalsCaught());
+        }while(!popo.catchCriminals(gangdem));
 
 
 
