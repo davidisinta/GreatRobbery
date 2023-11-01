@@ -22,14 +22,16 @@ public abstract class Person
     public void printBioData()
     {
 
-        System.out.println("Person's name is "+name+ "\n");
-        System.out.println(  name+  "'s nickname is "+nickName+ "\n");
-        System.out.println( name+"'s year of Birth is"+yearOfBorn+"\n");
-        System.out.println( name+"'s expertIn is"+expertIn+"\n");
+        System.out.println("Person's name is "+name);
+        System.out.println(  name+  "'s nickname is "+nickName);
+        System.out.println( name+"'s year of Birth is "+yearOfBorn);
+        System.out.println( name+"'s expertise is "+expertIn);
+
+        System.out.println( name+" has the following items in their repertoire:");
 
         for(Item item:items)
         {
-            System.out.println(item+ ", ");
+            System.out.println(item.getName());
 
         }
 

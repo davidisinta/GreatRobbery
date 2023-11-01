@@ -26,7 +26,10 @@ public class Gang
         Item [] bobbysTools = new Item[2];
         bobbysTools[0]=assaultRifle;
         bobbysTools[1]=shotgun;
-        Criminal bobby = new Criminal("Bobby","shooter",2001,"CCQB",bobbysTools);
+        Criminal bobby = new Criminal("Bobby","shooter",2001,"CQB",bobbysTools);
+
+        criminals[0]=rob;
+        criminals[1]=bobby;
     }
 
 
@@ -49,6 +52,8 @@ public class Gang
             {
                 criminal.printBioData();
             }
+
+            System.out.println("________________________________________________________");
 
         }
     }
