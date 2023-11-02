@@ -1,7 +1,7 @@
 import java.util.Random;
 public class Gang
 {
-    private Criminal [] criminals= new Criminal[2];
+    private Criminal [] criminals= new Criminal[3];
     private Random randomGenerator = new Random();
 
     private double sumRobbedValue;
@@ -14,6 +14,9 @@ public class Gang
         Item assaultRifle = new Item("AR", 8);
         Item shotgun = new Item("Pump Shotgun", 11);
         Item pistol = new Item("Bastola",3);
+        Item scar = new Item ("Legendary Scar",88);
+        Item brassKnuckles = new Item ("BrassKnuckles", 9);
+
 
 
         Item [] robsTools = new Item[2];
@@ -28,8 +31,14 @@ public class Gang
         bobbysTools[1]=shotgun;
         Criminal bobby = new Criminal("Bobby","shooter",2001,"CQB",bobbysTools);
 
+        Item [] sheffGstools = new Item[2];
+        sheffGstools[0]=sword;
+        sheffGstools[1]=pistol;
+        Criminal sheffG = new Criminal("sheff G","Mr. Cheffings",1998,"Stealth",sheffGstools);
+
         criminals[0]=rob;
         criminals[1]=bobby;
+        criminals[2]=sheffG;
     }
 
 

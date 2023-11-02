@@ -1,7 +1,7 @@
 public class Criminal extends Person
 {
 
-    private static final int SUCCESS_PERCENTAGE = 40;
+    private static final int SUCCESS_PERCENTAGE = 55;
 
     public Criminal(String name, String nickName, int yearOfBorn, String expertIn, Item[] items)
     {
@@ -14,6 +14,8 @@ public class Criminal extends Person
     {
         return SUCCESS_PERCENTAGE;
     }
+
+
 
 
 
