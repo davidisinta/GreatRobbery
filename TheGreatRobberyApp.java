@@ -18,6 +18,7 @@ public class TheGreatRobberyApp
             {
                 System.out.println("The newest gang in town has made a robbing debut!");
                 System.out.println("The want to bring violence to the scene");
+                System.out.println("The jakes have to be vigilant");
                 System.out.println("________________________________________________________");
                 System.out.println("________________________________________________________");
 
