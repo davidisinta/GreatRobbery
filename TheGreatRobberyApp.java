@@ -17,6 +17,7 @@ public class TheGreatRobberyApp
             if (robberyCount==0)
             {
                 System.out.println("The newest gang in town has made a robbing debut!");
+                System.out.println("The want to bring violence to the scene");
                 System.out.println("________________________________________________________");
                 System.out.println("________________________________________________________");
 
